@@ -1,0 +1,539 @@
+  /************************/
+  /* 	    FONTS           */
+  /************************/
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.1;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  h1,
+  .h1 {
+      font-size: 51px;
+  }
+
+  h2,
+  .h2 {
+      font-size: 40px;
+  }
+
+  h3,
+  .h3 {
+      font-size: 30px;
+  }
+
+  h4,
+  .h4 {
+      font-size: 22px;
+  }
+
+  h5,
+  .h5 {
+      font-size: 18px;
+  }
+
+  h6,
+  .h6 {
+      font-size: 12px;
+  }
+
+  p {
+      font-family: 'Oxygen', sans-serif;
+      font-size: 16px;
+  }
+
+  .p-ital {
+      font-family: 'Oxygen', sans-serif;
+      font-size: 16px;
+      font-style: italic;
+  }
+
+  .p-bold {
+      font-family: 'Oxygen', sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+  }
+
+
+  /* FOOTER */
+  .footer {
+      font-size: 17px;
+      color:#33475c;
+      background: linear-gradient(#f3f3f3, #c9c9c9);
+      height: 5rem;
+      width: 100%;
+      border-top: 1px solid #c7c7c7;
+      line-height: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+
+
+  .menufooter a {
+      align-content: center;
+      color: rgba(68, 68, 68, 0.801);
+  }
+
+
+  .menufooter1 {
+      display: inline-flex;
+      flex-wrap: wrap;
+  }
+
+.footerp{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px; 
+margin-bottom: 0px;
+margin-top: 3px;
+}
+
+  .menufooter2 {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      width: 10rem;
+      justify-content: space-around;
+  }
+
+ 
+
+
+  /* LOGIN PAGE */
+
+  .login-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      width: 50%;
+      margin-left: 25%;
+      padding-top: 2.5rem;
+      padding-bottom: 5rem;
+      box-shadow: 3px 5px 10px #33475c;
+      border: 1px solid #afafaf;
+      border-radius: 20px;
+
+
+  }
+
+  .text-center {
+      width: 25rem;
+  }
+
+  .form-group {
+
+      border-radius: 9px;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0.1rem 0.1rem;
+      padding-left: 0.8rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      font-size: 0.9375rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #7b8a8b;
+      text-align: center;
+      white-space: nowrap;
+      background-color: #ecf0f1;
+      border: 1px solid #ced4da;
+  }
+
+  .col-form-label-lg {
+      padding-top: calc(0.3rem + 1px);
+      padding-bottom: calc(0.3rem + 1px);
+      font-size: 1.7rem;
+      line-height: 1.5;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      display: flex;
+      justify-content: center;
+  }
+
+  .col-form-label {
+      padding-top: calc(0.3rem + 1px);
+      padding-bottom: calc(0.3rem + 1px);
+      margin-bottom: 1px;
+      margin-right: 0.8rem;
+      margin-left: 0.7rem;
+      font-size: inherit;
+      line-height: 1.5;
+      display: flex;
+      justify-content: center;
+  }
+
+  .row-forgot-remember {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .login-button {
+      background: #33475c;
+      background: linear-gradient(#33475c, #000000);
+      border-radius: 9px;
+      padding: 15px 40px;
+      margin-top: 2rem;
+      color: #ffffff;
+      display: inline-block;
+      font: normal normal 26px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+  }
+
+  .login-button:hover,
+  :focus {
+      background: #33475c;
+      background: linear-gradient(#33475c, #000000);
+      border-radius: 9px;
+      padding: 15px 40px;
+      margin-top: 2rem;
+      color: #ffffff;
+      display: inline-block;
+      font: normal normal 26px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      filter: blur(1);
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      filter: blur(1px);
+
+  }
+
+  .text-signup {
+      margin-top: 1rem;
+  }
+
+  .social-login-purpose {
+      color: #8c98a4;
+  }
+
+  .socials-login-buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+  }
+
+  .btn-facebook {
+      background: #2b4272;
+      background: linear-gradient(#324c83, #3b5998);
+      border-radius: 9px;
+      padding: 15px 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #ffffff;
+      display: inline-block;
+      font: normal normal 17px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+  }
+
+  .btn-facebook:hover,
+  :focus {
+      background: #2b4272;
+      background: linear-gradient(#324c83, #3b5998);
+      border-radius: 9px;
+      padding: 15px 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #ffffff;
+      display: inline-block;
+      font: normal normal 17px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transform: scale(0.95);
+      transform: scale(0.95);
+      filter: blur(1px);
+
+  }
+
+  .btn-login-google {
+      background: #f7f7f7;
+      background: linear-gradient(#ebebeb, #ffffff);
+      border: 2px solid #616161;
+      border-radius: 9px;
+      padding: 15px 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #000000;
+      display: inline-block;
+      font: normal normal 17px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+  }
+
+  .btn-login-google:hover,
+  :focus {
+      background: #f7f7f7;
+      background: linear-gradient(#ebebeb, #ffffff);
+      border: 2px solid #616161;
+      border-radius: 9px;
+      padding: 15px 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #000000;
+      display: inline-block;
+      font: normal normal 17px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transform: scale(0.95);
+      transform: scale(0.95);
+      filter: blur(1px);
+
+  }
+
+
+  /*JUMBOTRON*/
+
+
+  element.style {}
+
+  .jumbotron {
+      color: white;
+      background-image: url("https://images.dexerto.fr/uploads/thumbnails/_thumbnailLarge/1041662/z-event-2019-differents-donation-goals-streamers.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 85vh;
+      width: 200;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+
+  }
+
+
+  .jumbotron-sm {
+      color: rgb(0, 0, 0);
+      background-color: black;
+      background-image: url("https://images.prismic.io/amnestyfr/022c2194-972b-4a5d-b3c0-b3934c06ae2e_home.png?auto=compress,format&rect=0,1,1024,486&w=1000&h=475");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 33vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+
+  }
+
+
+
+  .text-jumbotron {
+
+      color: #afafaf8a;
+      font: normal bold 60px/1 "Ubuntu", sans-serif;
+      position: relative;
+
+
+
+  }
+
+  .text-jumbotron-secondary {
+      color: #afafaf;
+      font: normal bold 30px/1 "Ubuntu", sans-serif;
+      position: absolute;
+
+  }
+
+  .btn-jumbotron {
+    background: #c2c0c0;
+    background: linear-gradient(#c2c0c088, #ffffff83);
+    border-radius: 9px;
+    padding: 15px 35px;
+    color: #000000;
+    display: inline-block;
+    font: normal bold 26px/1 "Ubuntu", sans-serif;
+    text-align: center;
+    margin-right: 40%;
+    margin-left: 40%;
+    width: 22rem;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+  .btn-jumbotron:hover,
+  :focus {
+      background: #c2c0c083;
+      background: linear-gradient(#c2c0c08a, #ffffff8a);
+      border-radius: 9px;
+      padding: 15px 35px;
+      margin-right: 40%;
+      margin-left: 40%;
+      width: 22rem;
+      color: #000000;
+      display: inline-block;
+      font: normal bold 26px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      filter: blur(1px);
+
+  }
+
+  .btn-jumbotron-sm {
+      background: #c2c0c0;
+      background: linear-gradient(#c2c0c088, #ffffff83);
+      border-radius: 9px;
+      padding: 12px 30px;
+      color: #000000;
+      display: inline-block;
+      font: normal normal 22px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      margin-right: 4%;
+      margin-bottom: 3rem;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      width: 18rem;
+  }
+
+  .btn-jumbotron-sm:hover,
+  :focus {
+      background: #c2c0c083;
+      background: linear-gradient(#c2c0c08a, #ffffff8a);
+      border-radius: 9px;
+      padding: 12px 30px;
+      margin-right: 4%;
+      margin-bottom: 3rem;
+      width: 18rem;
+      color: #000000;
+      display: inline-block;
+      font: normal normal 22px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      filter: blur(1px);
+
+  }
+
+
+  /*CARDS*/
+
+  .card-event{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+ 
+    justify-content: center;
+  
+    }
+
+    
+  .cards-1{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+.card-event-infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+  .card{
+    border-bottom: 2px solid #616161;
+    border-right:   2px solid #616161;
+    border-radius: 10px;
+  }
+
+  .h4-event{
+    font: normal bold 26px/1 "Ubuntu", sans-serif;
+padding-top: 0.5rem;
+  }
+
+  .card-header-event{
+    background-color: rgba(0, 0, 0, 0.03);
+display: flex;
+height: 2.5rem;
+justify-content: center;
+margin-bottom: solid 2px rgb(66, 66, 66);
+  }
+
+  .event-contact{
+    font: normal italic 14px/1 "Ubuntu", sans-serif;
+    display: inline;
+    float: right;
+  }
+  .title-price{
+      display: flex;
+   justify-content: space-between;
+      
+  }
+  .card-body-event{
+display: flex;
+flex-direction: column;
+  }
+
+  .card-footer{
+
+  }
+
+.stretched-link:hover, :focus{
+    box-shadow: 3px 5px 10px #33475c;
+}
+  
+
+.container-list-users{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%
+}
+
+
+.media-body{
+
+    width: 80%;
+   
+}
+
+.text-muted-citylist{
+    font: normal 14px/1 "Ubuntu", sans-serif;
+}
+
+.text-muted-citylist-ital{
+    font: normal normal 13px/1 "Ubuntu", sans-serif;
+font-style: italic;
+}
+
+.mb-1-citylist{
+    font: normal 18px/1 "Ubuntu", sans-serif;
+}
