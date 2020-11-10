@@ -202,7 +202,8 @@ margin-top: 3px;
       transition-property: transform;
   }
 
-  .login-button:hover {
+  .login-button:hover,
+  :focus {
       background: #33475c;
       background: linear-gradient(#33475c, #000000);
       border-radius: 9px;
@@ -212,7 +213,7 @@ margin-top: 3px;
       display: inline-block;
       font: normal normal 26px/1 "Ubuntu", sans-serif;
       text-align: center;
-
+      filter: blur(1);
       -webkit-transform: scale(0.9);
       transform: scale(0.9);
       filter: blur(1px);
@@ -251,7 +252,8 @@ margin-top: 3px;
       transition-property: transform;
   }
 
-  .btn-facebook:hover {
+  .btn-facebook:hover,
+  :focus {
       background: #2b4272;
       background: linear-gradient(#324c83, #3b5998);
       border-radius: 9px;
@@ -286,7 +288,8 @@ margin-top: 3px;
       transition-property: transform;
   }
 
-  .btn-login-google:hover {
+  .btn-login-google:hover,
+  :focus {
       background: #f7f7f7;
       background: linear-gradient(#ebebeb, #ffffff);
       border: 2px solid #616161;
@@ -364,7 +367,7 @@ margin-top: 3px;
 
   }
 
-  .btnjumbotron {
+  .btn-jumbotron {
     background: #c2c0c0;
     background: linear-gradient(#c2c0c088, #ffffff83);
     border-radius: 9px;
@@ -382,84 +385,64 @@ margin-top: 3px;
     transition-property: transform;
 }
 
-.btnjumbotron:hover {
-    background: #c2c0c083;
-    background: linear-gradient(#c2c0c08a, #ffffff8a);
-    border-radius: 9px;
-    padding: 15px 35px;
-    margin-right: 40%;
-    margin-left: 40%;
-    width: 22rem;
-    color: #000000;
-    display: inline-block;
-    font: normal bold 26px/1 "Ubuntu", sans-serif;
-    text-align: center;
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    filter: blur(1px);
+  .btn-jumbotron:hover,
+  :focus {
+      background: #c2c0c083;
+      background: linear-gradient(#c2c0c08a, #ffffff8a);
+      border-radius: 9px;
+      padding: 15px 35px;
+      margin-right: 40%;
+      margin-left: 40%;
+      width: 22rem;
+      color: #000000;
+      display: inline-block;
+      font: normal bold 26px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      filter: blur(1px);
 
-}
+  }
 
-.btnjumbotronsm {
-    background: #c2c0c0;
-    background: linear-gradient(#c2c0c088, #ffffff83);
-    border-radius: 9px;
-    padding: 12px 30px;
-    color: #000000;
-    display: inline-block;
-    font: normal normal 22px/1 "Ubuntu", sans-serif;
-    text-align: center;
-    margin-right: 4%;
-    margin-bottom: 3rem;
-    -webkit-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    width: 18rem;
-}
+  .btn-jumbotron-sm {
+      background: #c2c0c0;
+      background: linear-gradient(#c2c0c088, #ffffff83);
+      border-radius: 9px;
+      padding: 12px 30px;
+      color: #000000;
+      display: inline-block;
+      font: normal normal 22px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      margin-right: 4%;
+      margin-bottom: 3rem;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      width: 18rem;
+  }
 
-.btnjumbotronsm:hover {
-    background: #c2c0c083;
-    background: linear-gradient(#c2c0c08a, #ffffff8a);
-    border-radius: 9px;
-    padding: 12px 30px;
-    margin-right: 4%;
-    margin-bottom: 3rem;
-    width: 18rem;
-    color: #000000;
-    display: inline-block;
-    font: normal normal 22px/1 "Ubuntu", sans-serif;
-    text-align: center;
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    filter: blur(1px);
+  .btn-jumbotron-sm:hover,
+  :focus {
+      background: #c2c0c083;
+      background: linear-gradient(#c2c0c08a, #ffffff8a);
+      border-radius: 9px;
+      padding: 12px 30px;
+      margin-right: 4%;
+      margin-bottom: 3rem;
+      width: 18rem;
+      color: #000000;
+      display: inline-block;
+      font: normal normal 22px/1 "Ubuntu", sans-serif;
+      text-align: center;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      filter: blur(1px);
 
-}
+  }
 
 
   /*CARDS*/
-
-
-  .btn-card-event{
-    background:    #2e4153;
-    background:    linear-gradient(#2e4153, #1f2b38);
-    border-radius: 50px;
-    box-shadow:    0px 0px #444444;
-    padding:       10px 17px;
-    color:         #f3f3f3;
-    display:       inline-block;
-    font:          normal bold 18px/1 "Ubuntu", sans-serif;
-    text-align:    center;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-
-  .btn-card-event:hover{
-    background:    linear-gradient(#2e4153e0, #1f2b38e0);
-    color:         #b1b1b1dd;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.2);
-  }
 
   .card-event{
     width: 80%;
@@ -470,18 +453,6 @@ margin-top: 3px;
     justify-content: center;
   
     }
-
-    .card-eventplus{
-        width: 80%;
-        margin-right: 10%;
-        margin-left: 10%;
-        display: flex;
-     flex-direction: row;
-        justify-content: space-between;
-
-        border: 1px solid #616161 ;
-        align-items: stretch;
-        }
 
     
   .cards-1{
@@ -512,7 +483,7 @@ padding-top: 0.5rem;
   .card-header-event{
     background-color: rgba(0, 0, 0, 0.03);
 display: flex;
-height: 3.1rem;
+height: 2.5rem;
 justify-content: center;
 margin-bottom: solid 2px rgb(66, 66, 66);
   }
@@ -536,8 +507,7 @@ flex-direction: column;
 
   }
 
-
-.stretched-link:hover{
+.stretched-link:hover, :focus{
     box-shadow: 3px 5px 10px #33475c;
 }
   
@@ -566,9 +536,4 @@ font-style: italic;
 
 .mb-1-citylist{
     font: normal 18px/1 "Ubuntu", sans-serif;
-}
-
-
-.image-rounded{
-    border-radius: 100;
 }
