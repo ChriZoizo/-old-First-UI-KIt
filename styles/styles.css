@@ -572,3 +572,11 @@ font-style: italic;
 .image-rounded{
     border-radius: 100;
 }
+
+/*COLUMN*/
+
+.big-col-user-m{
+width: 40%;
+margin-right: 30px ;
+margin-left: 30%;
+}
